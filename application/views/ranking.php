@@ -7,7 +7,7 @@
 	<?php } ?>
 	
 	<h1>Clubes</h1>
-	<table class="table table-bordered table-striped table-sm tabela" style="font-size:14px;">
+	<table class="table table-responsive table-bordered table-striped table-sm tabela" style="font-size:14px;">
 		<thead>
 			<tr>
 				<th>Posição</th>

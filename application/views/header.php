@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 	<title>Ranking Digital Clubes de Futebol - São Paulo</title>
 

@@ -99,10 +99,10 @@ $db['default'] = array(
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'ranking',
+	'hostname' => 'x40p5pp7n9rowyv6.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+	'username' => 'ibydrra8gna7yh0w',
+	'password' => 'fkkrsx1cbrfpvubt',
+	'database' => 'rtuwfgwe17y0ulpy',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

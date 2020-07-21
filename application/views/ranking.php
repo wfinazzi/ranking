@@ -18,7 +18,7 @@
         </select>
     </form>
 
-	<table class="table table-bordered table-striped table-sm tabela" style="font-size:14px;">
+	<table class="table table-bordered table-striped table-sm tabela my-3" style="font-size:14px;">
 		<thead>
 			<tr>
 				<th>Posição</th>

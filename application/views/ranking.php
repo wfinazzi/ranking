@@ -6,7 +6,8 @@
    		</div>
 	<?php } ?>
 	
-	<h1>Clubes</h1>
+	<h1>Ranking Digital - Clubes Paulistas de Futebol</h1>
+    <h3>Julho/2020 - Facebook,Twitter,Instagram e Youtube</h3>
     <label for="divisao">Selecione a Divisão:</label>
     <form method="post" action="<?=base_url('welcome/index')?>">
         <select name="divisao" id="divisao" class="form-control form-control-sm mb-2" onchange="this.form.submit();">
@@ -46,4 +47,8 @@
 			<?php endforeach;?>
 		</tbody>
 	</table>		
+    <p class="mt-5"><small><strong>Data da Coleta: 15 de Julho de 2020 - somente dados das páginas oficiais dos clubes</strong></small></p>
+    <p><small>Não são considerados dados declarados, apenas as contagens oficiais das próprias plataformas</small></p>
+    <p><small>Critério: todos os clubes que participam do Campeonato Paulista Séries(A1,A2,A3 e B)</small></p>
+    <p class="mb-5"><small >Informações coletadas: Facebook: curtidas da página. Twitter:seguidores. Instagram:seguidores. Youtube:inscritos.</small></p>
 </div>

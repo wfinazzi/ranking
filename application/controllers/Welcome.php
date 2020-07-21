@@ -22,7 +22,10 @@ class Welcome extends CI_Controller {
 	{
         $ranking_model = $this->load->model('ranking_model');
 
-        $dados['clubes'] = $this->ranking_model->get_ranking();
+        $divisao = $this->input->post('divisao');        
+
+        $dados['clubes'] = $this->ranking_model->get_clubes($divisao);
+        $dados['divisao'] = $divisao;
 
         $this->load->view('header');      
         $this->load->view('ranking',$dados); 
